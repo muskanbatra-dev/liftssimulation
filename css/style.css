@@ -1,0 +1,105 @@
+body{
+    background-color:#11425E;
+}
+
+.btn{
+    background-color: aquamarine;
+    color:black;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 8px;
+    
+}
+
+.header h1{
+    margin: auto;
+    text-align: center;
+    color:white;
+    font: 60px sans-serif;
+    font-weight: bold;
+}
+
+.form{
+    text-align: center;
+    color:white;
+    font: 25px sans-serif;
+    font-weight: bold;
+    width: fit-content;
+    margin: 0 auto;
+}
+.up{
+    background-color: aquamarine;
+    padding: 10px 40px;
+    position: relative;
+    margin-right: 100vh;
+}
+
+.down{
+    background-color: rgb(105, 193, 222);
+    padding: 10px 40px;
+    position: relative;
+    margin-right: 100vh;
+}
+
+
+
+.floor{
+    height: 20%;
+    position: relative;
+    
+}
+
+.floor-text{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 90%;
+    color: white;
+}
+
+
+.hr{
+    margin: 0;
+}
+
+.input-box{
+    font-size: x-large;
+    font-weight: 400;
+    margin: 1% 0; 
+}
+
+
+
+.lift{
+   
+    background-repeat: no-repeat;
+    background-size: 70% 60%;
+    background-position: center;
+    height: 100%;
+    width: 5%;
+    overflow: hidden;
+    position: absolute; 
+    left: 15%;
+    bottom: 1%;
+    display: block;
+}
+
+.door{
+    background-color: rgb(37, 35, 35);
+    width: 50%; 
+    height: 100%; 
+    position: relative; 
+    z-index: 2;
+}
+
+.door-left{
+    float: left;
+}
+
+.door-right{
+    float: right;   
+}
+
+
+
